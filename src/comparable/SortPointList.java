@@ -25,10 +25,6 @@ public class SortPointList {
         Point p12 = new Point(999999999, 999999998); list.add(p12);
         Point p13 = new Point(999999999, 999999999); list.add(p13);
 
-
-        //list.add(null);
-
-
         Collections.sort(list);
 
         for(int i = 0; i < list.size(); i++){
